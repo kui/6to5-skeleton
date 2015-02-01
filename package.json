@@ -1,0 +1,16 @@
+{
+  "name": "6to5-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require test/loader test/**/*_test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "espower-6to5": "^1.1.0",
+    "mocha": "^2.1.0",
+    "power-assert": "^0.10.1"
+  }
+}
