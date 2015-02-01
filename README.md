@@ -3,13 +3,14 @@
 
 Skeleton Node project with 6to5, mocha and power-assert.
 
-Run test
----------
-
 In your terminal:
 
 ~~~~~~~~~~~~~~~~~~~~~~sh
+$ git clone git@github.com:kui/6to5-skeleton.git
+$ npm install
+
+# run test
 $ npm test
 # or
-$ mocha --require test/loader test/**/*_test.js
+$ node_modules/.bin/mocha --require test/loader test/**/*_test.js
 ~~~~~~~~~~~~~~~~~~~~~~~~
